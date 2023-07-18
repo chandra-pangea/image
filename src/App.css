@@ -1,0 +1,14 @@
+.button{
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  margin-top: 10px;
+  
+}
+.btn{
+  background-color: rgb(32, 32, 215);
+  color: aliceblue;
+  padding: 7px;
+  border-radius: 5px;
+  border: none;
+}

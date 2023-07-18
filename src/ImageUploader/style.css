@@ -1,0 +1,49 @@
+/* style.css */
+.image-uploader-container {
+  position: relative;
+  width: 400px; /* Set the desired width for the uploaded area */
+  height: 300px; /* Set the desired height for the uploaded area */
+}
+.image-container{
+  margin-top: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.upload-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color:white; /* Set the background color for the uploaded area */
+  border: 2px solid #ccc; /* Set the border style for the uploaded area */
+  border-radius: 4px; /* Set the border radius for the uploaded area */
+  overflow: hidden; /* Hide any overflowing content */
+}
+
+.uploaded-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Show the full image and maintain aspect ratio */
+  border-radius: 4px; /* Optionally set border radius for the image */
+}
+
+.hover-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 14px;
+  font-weight: bold;
+  color: #333;
+}
+
+.upload-icon {
+  font-size: 60px; /* Set the size of the icon, increase as needed */
+  color: #999; /* Set the color of the icon */
+}
